@@ -8,13 +8,13 @@
   }
   
   .imageCard:hover {
-    transform: scale(1.05); /* Ефект збільшення при наведенні */
+    transform: scale(1.05);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
   }
   
   .imageCard img {
     width: 100%;
     height: auto;
-    object-fit: cover; /* Забезпечує правильне обрізання зображення */
+    object-fit: cover;
     border-radius: 8px;
   }

@@ -66,7 +66,7 @@ const App = () => {
   };
 
   return (
-    <div className={styles.app}>
+    <div>
       <SearchBar onSubmit={handleSearch} />
       {error && <ErrorMessage message={error} />}
       {noResults && !loading && <ErrorMessage message="No results found for your search." />}
